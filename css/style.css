@@ -1,9 +1,57 @@
-
-
-
-
-
-
 body {
-  background-color: #ff0000;  
+  background-color: #ff0000;
+}
+
+p {
+  font-size: 10px;
+}
+
+nav {
+  background-color: #dadada;
+}
+
+.container {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 320px;
+}
+
+@media screen and (min-width: 768px){
+  .container {
+    width: 680px
+  }
+}
+
+@media screen and (min-width: 1100px) {
+
+  .container {
+    widthL 1000px;
+  }
+}
+
+nav .container {
+  background-color: #dadada;
+}
+
+.full-height {
+padding-bottom: 50px;
+padding: 1rem 1rem 5rem 1rem;
+}
+
+.container div {
+  height: 100vh;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+
+}
+
+h1 {
+  font-size: 2.4rem;
 }
